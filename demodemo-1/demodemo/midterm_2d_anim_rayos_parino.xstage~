@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project  source="Harmony Premium (HarmonyPremium.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Sun Mar 8 21:16:20 2026" timeMsec="1772975780590" username="tiffa" realUsername="tiffa" creator="harmony">
+<project  source="Harmony Premium (HarmonyPremium.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Sun Mar 8 22:03:41 2026" timeMsec="1772978621002" username="tiffa" realUsername="tiffa" creator="harmony">
  <elements>
   <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
   <element id="2" elementName="Gino" elementFolder="Gino" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements">
@@ -205,6 +205,7 @@
   <element id="36" elementName="NECK" elementFolder="NECK" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
    <drawings>
     <dwg name="1"/>
+    <dwg name="2"/>
    </drawings>
   </element>
   <element id="37" elementName="NECKLINE" elementFolder="NECKLINE" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements">
@@ -460,12 +461,13 @@
      <elementSeq exposures="3" val="2" id="35"/>
     </column>
     <column type="0" name="ATV-0D4B13B4AFB8008C3BCD27E7" displayOrder="0" width="100" anonymous="true" id="36">
-     <elementSeq exposures="1-3" val="1" id="36"/>
+     <elementSeq exposures="1-2" val="1" id="36"/>
+     <elementSeq exposures="3" val="2" id="36"/>
     </column>
     <column type="0" name="ATV-0D0713F8AFA600863BCD288F" displayOrder="0" width="100" anonymous="true" id="37">
      <elementSeq exposures="1-3" val="1" id="37"/>
     </column>
-    <column type="0" name="ATV-0D1713E8AFBA00583BCD29DF" displayOrder="0" width="100" anonymous="true" id="39">
+    <column type="0" name="ATV-0D1713E8AFBA00583BCD29DF" display="false" displayOrder="0" width="100" anonymous="true" id="39">
      <elementSeq exposures="1-3" val="1" id="39"/>
     </column>
     <column type="0" name="ATV-0D83137CD1C0208C77E14BCB" displayOrder="0" width="100" anonymous="true" id="40">
@@ -17939,7 +17941,7 @@
       </options>
       <attrs/>
       <nodeslist>
-       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="2677,-3844,37">
+       <module type="MULTIPORT_IN" name="Multi-Port-In" pos="2677,-3844,51">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -17948,7 +17950,7 @@
          <port type="PEG" idx="0"/>
         </ports>
        </module>
-       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="2881,368,23">
+       <module type="MULTIPORT_OUT" name="Multi-Port-Out" pos="2881,368,39">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -17975,7 +17977,7 @@
          <inverted val="true"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_5" pos="2418,-1323,239" publishUnderTab="Cutter_2">
+       <module type="CUTTER" name="Cutter_5" pos="2418,-1323,7" publishUnderTab="Cutter_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -17984,7 +17986,7 @@
          <inverted val="true"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_2" pos="2281,-1323,226" publishUnderTab="Cutter_2">
+       <module type="CUTTER" name="Cutter_2" pos="2281,-1323,6" publishUnderTab="Cutter_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -17993,7 +17995,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_3" pos="2731,-1371,189" publishUnderTab="Cutter_2">
+       <module type="CUTTER" name="Cutter_3" pos="2731,-1371,194" publishUnderTab="Cutter_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18002,7 +18004,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_9" pos="3645,-1422,235" publishUnderTab="Cutter_8">
+       <module type="CUTTER" name="Cutter_9" pos="3645,-1422,236" publishUnderTab="Cutter_8">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18011,7 +18013,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_8" pos="3989,-1416,185" publishUnderTab="Cutter_6">
+       <module type="CUTTER" name="Cutter_8" pos="3989,-1416,190" publishUnderTab="Cutter_6">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18020,7 +18022,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_10" pos="3461,-1422,237" publishUnderTab="Cutter_7">
+       <module type="CUTTER" name="Cutter_10" pos="3461,-1422,238" publishUnderTab="Cutter_7">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18029,7 +18031,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_11" pos="5287,-1366,92" publishUnderTab="Cutter_10">
+       <module type="CUTTER" name="Cutter_11" pos="5287,-1366,105" publishUnderTab="Cutter_10">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18038,7 +18040,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_12" pos="5468,-1366,170" publishUnderTab="Cutter_9">
+       <module type="CUTTER" name="Cutter_12" pos="5468,-1366,175" publishUnderTab="Cutter_9">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18047,7 +18049,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_7" pos="3808,-1416,183" publishUnderTab="Cutter_6">
+       <module type="CUTTER" name="Cutter_7" pos="3808,-1416,188" publishUnderTab="Cutter_6">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18056,7 +18058,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_14" pos="5768,-1363,166" publishUnderTab="Cutter_9">
+       <module type="CUTTER" name="Cutter_14" pos="5768,-1363,171" publishUnderTab="Cutter_9">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18065,7 +18067,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_13" pos="5588,-1364,85" publishUnderTab="Cutter_10">
+       <module type="CUTTER" name="Cutter_13" pos="5588,-1364,98" publishUnderTab="Cutter_10">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18074,7 +18076,7 @@
          <inverted val="true"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_4" pos="2554,-1169,187" publishUnderTab="Cutter_3">
+       <module type="CUTTER" name="Cutter_4" pos="2554,-1169,192" publishUnderTab="Cutter_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18083,7 +18085,7 @@
          <inverted val="true"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_6" pos="3214,-1344,224" publishUnderTab="Cutter_3">
+       <module type="CUTTER" name="Cutter_6" pos="3214,-1344,227" publishUnderTab="Cutter_3">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18092,7 +18094,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_6" pos="4463,-1414,175" publishUnderTab="Colour-Art_3">
+       <module type="COLOR_ART" name="Colour-Art_6" pos="4463,-1414,180" publishUnderTab="Colour-Art_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18104,7 +18106,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_7" pos="4807,-1408,182" publishUnderTab="Colour-Art_2">
+       <module type="COLOR_ART" name="Colour-Art_7" pos="4807,-1408,187" publishUnderTab="Colour-Art_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18116,7 +18118,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_6" pos="4288,-1414,177" publishUnderTab="Line-Art_3">
+       <module type="LINE_ART" name="Line-Art_6" pos="4288,-1414,182" publishUnderTab="Line-Art_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18128,7 +18130,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_7" pos="4632,-1408,179" publishUnderTab="Line-Art_2">
+       <module type="LINE_ART" name="Line-Art_7" pos="4632,-1408,184" publishUnderTab="Line-Art_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18140,7 +18142,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art" pos="2727,-1471,190" publishUnderTab="Colour-Art">
+       <module type="COLOR_ART" name="Colour-Art" pos="2727,-1471,195" publishUnderTab="Colour-Art">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18152,7 +18154,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art" pos="2614,-1471,191" publishUnderTab="Line-Art">
+       <module type="LINE_ART" name="Line-Art" pos="2614,-1471,196" publishUnderTab="Line-Art">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18164,7 +18166,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_2" pos="3979,-1476,181" publishUnderTab="Colour-Art_1">
+       <module type="COLOR_ART" name="Colour-Art_2" pos="3979,-1476,186" publishUnderTab="Colour-Art_1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18176,7 +18178,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_3" pos="3460,-1482,178" publishUnderTab="Line-Art_2">
+       <module type="LINE_ART" name="Line-Art_3" pos="3460,-1482,183" publishUnderTab="Line-Art_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18188,7 +18190,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_2" pos="3804,-1476,180" publishUnderTab="Line-Art_1">
+       <module type="LINE_ART" name="Line-Art_2" pos="3804,-1476,185" publishUnderTab="Line-Art_1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18200,7 +18202,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_3" pos="3635,-1482,176" publishUnderTab="Colour-Art_2">
+       <module type="COLOR_ART" name="Colour-Art_3" pos="3635,-1482,181" publishUnderTab="Colour-Art_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18212,7 +18214,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_4" pos="5461,-1426,171" publishUnderTab="Colour-Art_3">
+       <module type="COLOR_ART" name="Colour-Art_4" pos="5461,-1426,176" publishUnderTab="Colour-Art_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18224,7 +18226,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_5" pos="5761,-1424,233" publishUnderTab="Colour-Art_3">
+       <module type="COLOR_ART" name="Colour-Art_5" pos="5761,-1424,234" publishUnderTab="Colour-Art_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18236,19 +18238,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_1" pos="3096,-1444,223" publishUnderTab="Line-Art">
-        <options>
-         <collapsed val="false"/>
-         <version val="1"/>
-        </options>
-        <attrs>
-         <flatten val="false"/>
-         <applyToMattePorts val="false"/>
-         <antialiasingQuality val="IGNORE"/>
-         <antialiasingExponent val="1" defaultValue="1"/>
-        </attrs>
-       </module>
-       <module type="COLOR_ART" name="Colour-Art_1" pos="3205,-1444,222" publishUnderTab="Colour-Art">
+       <module type="LINE_ART" name="Line-Art_1" pos="3096,-1444,226" publishUnderTab="Line-Art">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18260,7 +18250,19 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_4" pos="5286,-1426,174" publishUnderTab="Line-Art_3">
+       <module type="COLOR_ART" name="Colour-Art_1" pos="3205,-1444,225" publishUnderTab="Colour-Art">
+        <options>
+         <collapsed val="false"/>
+         <version val="1"/>
+        </options>
+        <attrs>
+         <flatten val="false"/>
+         <applyToMattePorts val="false"/>
+         <antialiasingQuality val="IGNORE"/>
+         <antialiasingExponent val="1" defaultValue="1"/>
+        </attrs>
+       </module>
+       <module type="LINE_ART" name="Line-Art_4" pos="5286,-1426,179" publishUnderTab="Line-Art_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18272,7 +18274,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_5" pos="5587,-1424,164" publishUnderTab="Line-Art_3">
+       <module type="LINE_ART" name="Line-Art_5" pos="5587,-1424,169" publishUnderTab="Line-Art_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -18284,7 +18286,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="PEG" name="REYELASH_2-P" pos="304,-2272,211" publishUnderTab="REYELASH_2-P">
+       <module type="PEG" name="REYELASH_2-P" pos="304,-2272,216" publishUnderTab="REYELASH_2-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18346,7 +18348,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="NECK-P" pos="2304,-2323,216" publishUnderTab="NECK-P">
+       <module type="PEG" name="NECK-P" pos="2304,-2323,221" publishUnderTab="NECK-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18408,7 +18410,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LEYELASH-P" pos="-1060,-2272,194" publishUnderTab="LEYELASH-P">
+       <module type="PEG" name="LEYELASH-P" pos="-1060,-2272,199" publishUnderTab="LEYELASH-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18470,7 +18472,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LEAR-P" pos="1575,-2272,219" publishUnderTab="LEAR-P">
+       <module type="PEG" name="LEAR-P" pos="1575,-2272,222" publishUnderTab="LEAR-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18532,7 +18534,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LLOWEREYELID-P" pos="-557,-2272,213" publishUnderTab="LLOWEREYELID-P">
+       <module type="PEG" name="LLOWEREYELID-P" pos="-557,-2272,218" publishUnderTab="LLOWEREYELID-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18594,7 +18596,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="SECLERA-P" pos="-262,-2272,206" publishUnderTab="SECLERA-P">
+       <module type="PEG" name="SECLERA-P" pos="-262,-2272,211" publishUnderTab="SECLERA-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18656,7 +18658,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LUPPEREYELID-P" pos="-732,-2272,214" publishUnderTab="LUPPEREYELID-P">
+       <module type="PEG" name="LUPPEREYELID-P" pos="-732,-2272,219" publishUnderTab="LUPPEREYELID-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18718,7 +18720,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="SECLERA_1-P" pos="980,-2272,210" publishUnderTab="SECLERA_1-P">
+       <module type="PEG" name="SECLERA_1-P" pos="980,-2272,215" publishUnderTab="SECLERA_1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18780,7 +18782,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LEYELASH_1-P" pos="-910,-2272,193" publishUnderTab="LEYELASH_1-P">
+       <module type="PEG" name="LEYELASH_1-P" pos="-910,-2272,198" publishUnderTab="LEYELASH_1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18842,7 +18844,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWEREYELID_1-P" pos="657,-2272,205" publishUnderTab="RLOWEREYELID_1-P">
+       <module type="PEG" name="RLOWEREYELID_1-P" pos="657,-2272,210" publishUnderTab="RLOWEREYELID_1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18904,7 +18906,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="REYEBROW_1-P" pos="-26,-2272,145" publishUnderTab="REYEBROW_1-P">
+       <module type="PEG" name="REYEBROW_1-P" pos="-26,-2272,150" publishUnderTab="REYEBROW_1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -18966,7 +18968,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="REYELASH_3-P" pos="141,-2272,212" publishUnderTab="REYELASH_3-P">
+       <module type="PEG" name="REYELASH_3-P" pos="141,-2272,217" publishUnderTab="REYELASH_3-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19028,7 +19030,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LEYEBROW-P" pos="-1210,-2272,195" publishUnderTab="LEYEBROW-P">
+       <module type="PEG" name="LEYEBROW-P" pos="-1210,-2272,200" publishUnderTab="LEYEBROW-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19090,7 +19092,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RUPPEREYELID_1-P" pos="473,-2272,203" publishUnderTab="RUPPEREYELID_1-P">
+       <module type="PEG" name="RUPPEREYELID_1-P" pos="473,-2272,208" publishUnderTab="RUPPEREYELID_1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19152,7 +19154,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="NOSE-P" pos="1135,-2272,221" publishUnderTab="NOSE-P">
+       <module type="PEG" name="NOSE-P" pos="1135,-2272,224" publishUnderTab="NOSE-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19214,7 +19216,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="PUPIL_1-P-P" pos="843,-2272,209" publishUnderTab="PUPIL_1-P-P">
+       <module type="PEG" name="PUPIL_1-P-P" pos="843,-2272,214" publishUnderTab="PUPIL_1-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19276,7 +19278,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="PUPIL-P" pos="-382,-2272,207" publishUnderTab="PUPIL-P-P">
+       <module type="PEG" name="PUPIL-P" pos="-382,-2272,212" publishUnderTab="PUPIL-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19338,7 +19340,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="MOUTH-P" pos="1266,-2272,220" publishUnderTab="MOUTH-P">
+       <module type="PEG" name="MOUTH-P" pos="1266,-2272,223" publishUnderTab="MOUTH-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19400,7 +19402,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="REAR-P" pos="1696,-2272,217" publishUnderTab="REAR-P">
+       <module type="PEG" name="REAR-P" pos="1696,-2272,10" publishUnderTab="REAR-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19462,7 +19464,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="HEAD-P" pos="1819,-2272,204" publishUnderTab="HEAD-P">
+       <module type="PEG" name="HEAD-P" pos="1819,-2272,209" publishUnderTab="HEAD-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19524,7 +19526,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="MENTALCREASE-P" pos="1401,-2272,202" publishUnderTab="MENTALCREASE-P">
+       <module type="PEG" name="MENTALCREASE-P" pos="1401,-2272,207" publishUnderTab="MENTALCREASE-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19586,7 +19588,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LSHOES2" pos="6045,-1945,59" publishUnderTab="SHOES2-P">
+       <module type="PEG" name="LSHOES2" pos="6045,-1945,73" publishUnderTab="SHOES2-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19648,7 +19650,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LLOWERLEG-P" pos="5699,-1947,152" publishUnderTab="LLOWERLEG-P">
+       <module type="PEG" name="LLOWERLEG-P" pos="5699,-1947,157" publishUnderTab="LLOWERLEG-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19710,7 +19712,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="PELVIS-P" pos="3182,-2347,196" publishUnderTab="PELVIS-P">
+       <module type="PEG" name="PELVIS-P" pos="3182,-2347,201" publishUnderTab="PELVIS-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19772,7 +19774,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="CROTCHLINE-P" pos="2987,-2347,55" publishUnderTab="CROTCHLINE-P">
+       <module type="PEG" name="CROTCHLINE-P" pos="2987,-2347,69" publishUnderTab="CROTCHLINE-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19834,7 +19836,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LEYE_PARENTPEG" pos="-278,-2646,148" publishUnderTab="SECLERA-P-P">
+       <module type="PEG" name="LEYE_PARENTPEG" pos="-278,-2646,153" publishUnderTab="SECLERA-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19896,7 +19898,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="NECKLINE-P" pos="2430,-2323,199" publishUnderTab="NECKLINE-P">
+       <module type="PEG" name="NECKLINE-P" pos="2430,-2323,204" publishUnderTab="NECKLINE-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -19958,7 +19960,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="REYE_PARENTPEG" pos="968,-2665,146" publishUnderTab="SECLERA_1-P-P">
+       <module type="PEG" name="REYE_PARENTPEG" pos="968,-2665,151" publishUnderTab="SECLERA_1-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20020,7 +20022,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RBANG-P" pos="-1372,-2284,215" publishUnderTab="RBANG-P">
+       <module type="PEG" name="RBANG-P" pos="-1372,-2284,220" publishUnderTab="RBANG-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20082,7 +20084,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="BODY-P" pos="2702,-2323,197" publishUnderTab="BODY-P">
+       <module type="PEG" name="BODY-P" pos="2702,-2323,202" publishUnderTab="BODY-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20144,7 +20146,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="EYES_MASTERPEG" pos="325,-2829,147" publishUnderTab="Peg_1">
+       <module type="PEG" name="EYES_MASTERPEG" pos="325,-2829,152" publishUnderTab="Peg_1">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20206,7 +20208,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RHAND-P" pos="4143,-1845,45" publishUnderTab="RHAND-P">
+       <module type="PEG" name="RHAND-P" pos="4143,-1845,59" publishUnderTab="RHAND-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20268,7 +20270,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERARM-P" pos="3909,-1845,162" publishUnderTab="RLOWERARM-P">
+       <module type="PEG" name="RLOWERARM-P" pos="3909,-1845,167" publishUnderTab="RLOWERARM-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20330,7 +20332,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="MIDDLE_BANG-P" pos="-1712,-2284,218" publishUnderTab="MIDDLE_BANG-P">
+       <module type="PEG" name="MIDDLE_BANG-P" pos="-1892,-2291,14" publishUnderTab="MIDDLE_BANG-P">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -20392,7 +20394,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LBANG-P" pos="-1503,-2284,142" publishUnderTab="LBANG-P">
+       <module type="PEG" name="LBANG-P" pos="-1503,-2284,148" publishUnderTab="LBANG-P">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -20454,7 +20456,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RUPPERARM-P" pos="3565,-1846,160" publishUnderTab="RUPPERARM-P">
+       <module type="PEG" name="RUPPERARM-P" pos="3565,-1846,165" publishUnderTab="RUPPERARM-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20516,7 +20518,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="Belt-P" pos="2581,-2323,198" publishUnderTab="Belt-P">
+       <module type="PEG" name="Belt-P" pos="2581,-2323,203" publishUnderTab="Belt-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20578,7 +20580,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LSHOES1" pos="5893,-1945,155" publishUnderTab="SHOES1-P">
+       <module type="PEG" name="LSHOES1" pos="5893,-1945,160" publishUnderTab="SHOES1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20640,7 +20642,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="BACK_HAIR-P" pos="1978,-2272,201" publishUnderTab="BACK_HAIR-P">
+       <module type="PEG" name="BACK_HAIR-P" pos="1978,-2272,206" publishUnderTab="BACK_HAIR-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20702,7 +20704,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="FRONTRBANG-P" pos="-1891,-2284,141" publishUnderTab="FRONTRBANG-P">
+       <module type="PEG" name="FRONTRBANG-P" pos="-1697,-2284,15" publishUnderTab="FRONTRBANG-P">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -20764,7 +20766,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="Peg" pos="-1631,-2384,63" publishUnderTab="Peg">
+       <module type="PEG" name="Peg" pos="-1631,-2384,76" publishUnderTab="Peg">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20826,7 +20828,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LLOWEREYELID-P-P" pos="-562,-2373,192" publishUnderTab="LLOWEREYELID-P-P">
+       <module type="PEG" name="LLOWEREYELID-P-P" pos="-562,-2373,197" publishUnderTab="LLOWEREYELID-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20888,7 +20890,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RUPPERWHOLEEYELID" pos="466,-2386,62" publishUnderTab="RUPPEREYELID_1-P-P">
+       <module type="PEG" name="RUPPERWHOLEEYELID" pos="466,-2386,75" publishUnderTab="RUPPEREYELID_1-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -20950,7 +20952,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LOWERFACIAL_PARENTPEG" pos="1147,-2665,150" publishUnderTab="Peg_2">
+       <module type="PEG" name="LOWERFACIAL_PARENTPEG" pos="1147,-2665,155" publishUnderTab="Peg_2">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21012,7 +21014,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="FACIALDETAIL_MASTERPEG" pos="1147,-2867,144" publishUnderTab="Peg_2-P">
+       <module type="PEG" name="FACIALDETAIL_MASTERPEG" pos="1147,-2867,149" publishUnderTab="Peg_2-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21074,7 +21076,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LUPPERLEG-P" pos="5403,-1945,89" publishUnderTab="LUPPERLEG-P">
+       <module type="PEG" name="LUPPERLEG-P" pos="5403,-1945,102" publishUnderTab="LUPPERLEG-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21136,7 +21138,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LSHOES3" pos="6190,-1945,64" publishUnderTab="SHOES-P">
+       <module type="PEG" name="LSHOES3" pos="6190,-1945,77" publishUnderTab="SHOES-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21198,7 +21200,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERWHOLEEYELID" pos="650,-2386,149" publishUnderTab="RLOWEREYELID_1-P-P">
+       <module type="PEG" name="RLOWERWHOLEEYELID" pos="650,-2386,154" publishUnderTab="RLOWEREYELID_1-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21260,7 +21262,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="EARS_PARENTPEG" pos="1611,-2761,143" publishUnderTab="Peg_3">
+       <module type="PEG" name="EARS_PARENTPEG" pos="1611,-2761,12" publishUnderTab="Peg_3">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21322,7 +21324,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="Peg_4" pos="2367,-2423,200" publishUnderTab="Peg_4">
+       <module type="PEG" name="Peg_4" pos="2367,-2423,205" publishUnderTab="Peg_4">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21384,7 +21386,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LUPPEREYELID-P-P" pos="-737,-2373,208" publishUnderTab="LUPPEREYELID-P-P">
+       <module type="PEG" name="LUPPEREYELID-P-P" pos="-737,-2373,213" publishUnderTab="LUPPEREYELID-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21446,7 +21448,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="TORSO_PARENTPEG" pos="2667,-2709,56" publishUnderTab="BODY-P-P">
+       <module type="PEG" name="TORSO_PARENTPEG" pos="2667,-2709,70" publishUnderTab="BODY-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21508,7 +21510,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="PELVIS-P-P" pos="3177,-2696,159" publishUnderTab="PELVIS-P-P">
+       <module type="PEG" name="PELVIS-P-P" pos="3177,-2696,164" publishUnderTab="PELVIS-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21570,7 +21572,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="FULLHEAD_PARENTPEG" pos="1781,-2935,151" publishUnderTab="HEAD-P-P">
+       <module type="PEG" name="FULLHEAD_PARENTPEG" pos="1781,-2935,156" publishUnderTab="HEAD-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21632,7 +21634,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERARM_PARENTPEG" pos="3882,-2161,47" publishUnderTab="RLOWERARM-P-P">
+       <module type="PEG" name="RLOWERARM_PARENTPEG" pos="3882,-2161,61" publishUnderTab="RLOWERARM-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21694,7 +21696,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="FRONTHAIR" pos="-1652,-967,161" publishUnderTab="Composite_6">
+       <module type="COMPOSITE" name="FRONTHAIR" pos="-1652,-967,166" publishUnderTab="Composite_6">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21713,7 +21715,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_1" pos="2884,256,22" publishUnderTab="Composite_1">
+       <module type="COMPOSITE" name="Composite_1" pos="2884,256,38" publishUnderTab="Composite_1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21732,7 +21734,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="LREYES" pos="-240,-1019,34" publishUnderTab="Composite_3">
+       <module type="COMPOSITE" name="LREYES" pos="-240,-1019,49" publishUnderTab="Composite_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21770,7 +21772,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="FULLHEAD" pos="-237,-909,35" publishUnderTab="Composite_4">
+       <module type="COMPOSITE" name="FULLHEAD" pos="-237,-909,50" publishUnderTab="Composite_4">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21808,7 +21810,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="FULLBANGS" pos="-1651,-1091,225" publishUnderTab="Composite_3">
+       <module type="COMPOSITE" name="FULLBANGS" pos="-1651,-1091,21" publishUnderTab="Composite_3">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -21827,7 +21829,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="BHAIR_COMPOSITE" pos="1969,-1335,30" publishUnderTab="Composite_3">
+       <module type="COMPOSITE" name="BHAIR_COMPOSITE" pos="1969,-1335,45" publishUnderTab="Composite_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21846,7 +21848,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_8" pos="5690,-965,25" publishUnderTab="Composite_8">
+       <module type="COMPOSITE" name="Composite_8" pos="5690,-965,41" publishUnderTab="Composite_8">
         <options>
          <disabled val="true"/>
          <collapsed val="true"/>
@@ -21866,7 +21868,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="RLOWERARM_COMPOSITE" pos="3858,-1356,229" publishUnderTab="Composite_6">
+       <module type="COMPOSITE" name="RLOWERARM_COMPOSITE" pos="3858,-1356,230" publishUnderTab="Composite_6">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21885,7 +21887,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="LLOWERLEG_COMPOSITE" pos="5643,-1262,231" publishUnderTab="Composite_7">
+       <module type="COMPOSITE" name="LLOWERLEG_COMPOSITE" pos="5643,-1262,232" publishUnderTab="Composite_7">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21904,7 +21906,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_5" pos="3892,-1147,27" publishUnderTab="Composite_5">
+       <module type="COMPOSITE" name="Composite_5" pos="3892,-1147,43" publishUnderTab="Composite_5">
         <options>
          <disabled val="true"/>
          <collapsed val="true"/>
@@ -21924,7 +21926,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="LLUPERLEG_COMPOSITE" pos="5347,-1258,167" publishUnderTab="Composite_7">
+       <module type="COMPOSITE" name="LLUPERLEG_COMPOSITE" pos="5347,-1258,172" publishUnderTab="Composite_7">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21943,7 +21945,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="RUPPERARM_COMPOSITE" pos="3513,-1362,227" publishUnderTab="Composite_6">
+       <module type="COMPOSITE" name="RUPPERARM_COMPOSITE" pos="3513,-1362,228" publishUnderTab="Composite_6">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21962,7 +21964,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="BODY_COMPOSITE" pos="2652,-1216,188" publishUnderTab="Composite_3">
+       <module type="COMPOSITE" name="BODY_COMPOSITE" pos="2652,-1216,193" publishUnderTab="Composite_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -21981,7 +21983,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_4" pos="2986,-1043,28" publishUnderTab="Composite_4">
+       <module type="COMPOSITE" name="Composite_4" pos="2986,-1043,44" publishUnderTab="Composite_4">
         <options>
          <disabled val="true"/>
          <collapsed val="false"/>
@@ -22001,9 +22003,8 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_2" pos="2477,-1030,29" publishUnderTab="Composite_2">
+       <module type="COMPOSITE" name="Composite_2" pos="2477,-1030,8" publishUnderTab="Composite_2">
         <options>
-         <disabled val="true"/>
          <collapsed val="true"/>
          <version val="1"/>
         </options>
@@ -22021,7 +22022,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <group name="Deformation-MENTALCREASE" pos="1380,-1543,122">
+       <group name="Deformation-MENTALCREASE" pos="1380,-1543,130">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -22287,7 +22288,7 @@
          <link out="Deformation-Composite" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-NECKLINE" pos="2401,-1602,111">
+       <group name="Deformation-NECKLINE" pos="2401,-1602,123">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -22739,7 +22740,7 @@
          <link out="CURVE_6" in="CURVE_7"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SHOES_1" pos="7377,-1655,69">
+       <group name="Deformation-SHOES_1" pos="7377,-1655,82">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -23191,7 +23192,7 @@
          <link out="CURVE_7" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-PELVIS" pos="3151,-1582,57">
+       <group name="Deformation-PELVIS" pos="3151,-1582,71">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -23443,7 +23444,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SECLERA_1" pos="959,-1543,127">
+       <group name="Deformation-SECLERA_1" pos="959,-1543,135">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -23895,7 +23896,7 @@
          <link out="CURVE" in="CURVE_1"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RLOWERARM_1" pos="4702,-1523,98">
+       <group name="Deformation-RLOWERARM_1" pos="4702,-1523,111">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -24447,7 +24448,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LUPPERLEG" pos="5364,-1576,83">
+       <group name="Deformation-LUPPERLEG" pos="5364,-1576,96">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -24999,7 +25000,7 @@
          <link out="CURVE_9" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LLOWERLEG_1" pos="6881,-1655,65">
+       <group name="Deformation-LLOWERLEG_1" pos="6881,-1655,78">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -25751,7 +25752,7 @@
          <link out="CURVE_8" in="CURVE_9"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SHOES1" pos="5852,-1576,77">
+       <group name="Deformation-SHOES1" pos="5852,-1576,90">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -26153,7 +26154,7 @@
          <link out="CURVE_6" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SHOES1_1" pos="7077,-1655,76">
+       <group name="Deformation-SHOES1_1" pos="7077,-1655,89">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -26555,7 +26556,7 @@
          <link out="CURVE_6" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-BODY" pos="2673,-1602,107">
+       <group name="Deformation-BODY" pos="2673,-1602,120">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -27307,7 +27308,7 @@
          <link out="Curve_13" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-MOUTH" pos="1245,-1543,124">
+       <group name="Deformation-MOUTH" pos="1245,-1543,132">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -27509,7 +27510,7 @@
          <link out="OFFSET" in="CURVE"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RHAND_1" pos="4937,-1523,94">
+       <group name="Deformation-RHAND_1" pos="4937,-1523,107">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -28261,7 +28262,7 @@
          <link out="CURVE_12" in="CURVE_13"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SHOES2_1" pos="7229,-1655,66">
+       <group name="Deformation-SHOES2_1" pos="7229,-1655,79">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -28563,7 +28564,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-HEAD" pos="1798,-1543,114">
+       <group name="Deformation-HEAD" pos="1798,-1543,124">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -29215,7 +29216,7 @@
          <link out="CURVE_11" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RUPPERARM_1" pos="4354,-1521,67">
+       <group name="Deformation-RUPPERARM_1" pos="4354,-1521,80">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -29667,7 +29668,7 @@
          <link out="OFFSET" in="CURVE"/>
         </linkedlist>
        </group>
-       <group name="Deformation-NECK" pos="2260,-1602,110">
+       <group name="Deformation-NECK" pos="2260,-1602,122">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -29969,7 +29970,7 @@
          <link out="CURVE" in="CURVE_1"/>
         </linkedlist>
        </group>
-       <group name="Deformation-CROTCHLINE" pos="2961,-1582,105">
+       <group name="Deformation-CROTCHLINE" pos="2961,-1582,118">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -30221,7 +30222,7 @@
          <link out="OFFSET" in="CURVE"/>
         </linkedlist>
        </group>
-       <group name="Deformation-REAR" pos="1675,-1543,115">
+       <group name="Deformation-REAR" pos="1675,-1543,13">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -30740,7 +30741,7 @@
          <link out="1" in="DeformationComposite" inport="0"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LEAR" pos="1554,-1543,116">
+       <group name="Deformation-LEAR" pos="1554,-1543,125">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -31042,7 +31043,7 @@
          <link out="CURVE_4" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RUPPERARM" pos="3526,-1589,68">
+       <group name="Deformation-RUPPERARM" pos="3526,-1589,81">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -31494,7 +31495,7 @@
          <link out="OFFSET" in="CURVE"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RLOWERARM" pos="3874,-1591,99">
+       <group name="Deformation-RLOWERARM" pos="3874,-1591,112">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -32046,7 +32047,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SHOES2" pos="6004,-1576,73">
+       <group name="Deformation-SHOES2" pos="6004,-1576,86">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -32348,7 +32349,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RHAND" pos="4109,-1591,95">
+       <group name="Deformation-RHAND" pos="4109,-1591,108">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -33100,7 +33101,7 @@
          <link out="CURVE_12" in="CURVE_13"/>
         </linkedlist>
        </group>
-       <group name="Deformation-NOSE" pos="1114,-1543,126">
+       <group name="Deformation-NOSE" pos="1114,-1543,134">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -33552,7 +33553,7 @@
          <link out="CURVE_4" in="CURVE_5"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SHOES" pos="6152,-1576,70">
+       <group name="Deformation-SHOES" pos="6152,-1576,83">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -34004,7 +34005,7 @@
          <link out="CURVE_7" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-Belt" pos="2552,-1602,109">
+       <group name="Deformation-Belt" pos="2552,-1602,121">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -34256,7 +34257,7 @@
          <link out="CURVE" in="CURVE_1"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LUPPERLEG_1" pos="6589,-1655,84">
+       <group name="Deformation-LUPPERLEG_1" pos="6589,-1655,97">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -34808,7 +34809,7 @@
          <link out="CURVE_9" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LLOWERLEG" pos="5660,-1576,80">
+       <group name="Deformation-LLOWERLEG" pos="5660,-1576,93">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -35560,7 +35561,7 @@
          <link out="CURVE_8" in="CURVE_9"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LBANG" pos="-1528,-1555,139">
+       <group name="Deformation-LBANG" pos="-1528,-1555,147">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -36162,7 +36163,7 @@
          <link out="CURVE_6" in="CURVE_7"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RBANG" pos="-1393,-1555,138">
+       <group name="Deformation-RBANG" pos="-1393,-1555,146">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -36664,7 +36665,7 @@
          <link out="CURVE_7" in="CURVE_8"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LEYELASH" pos="-1081,-1543,136">
+       <group name="Deformation-LEYELASH" pos="-1081,-1543,144">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -37016,7 +37017,7 @@
          <link out="CURVE_5" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LLOWEREYELID" pos="-578,-1543,134">
+       <group name="Deformation-LLOWEREYELID" pos="-578,-1543,142">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -37268,7 +37269,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LEYEBROW" pos="-1231,-1543,137">
+       <group name="Deformation-LEYEBROW" pos="-1231,-1543,145">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -37620,7 +37621,7 @@
          <link out="CURVE_1" in="CURVE_2"/>
         </linkedlist>
        </group>
-       <group name="Deformation-PUPIL" pos="-407,-1543,131">
+       <group name="Deformation-PUPIL" pos="-407,-1543,139">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -37972,7 +37973,7 @@
          <link out="CURVE_5" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-SECLERA" pos="-283,-1543,120">
+       <group name="Deformation-SECLERA" pos="-283,-1543,128">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -38424,7 +38425,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-REYELASH_3" pos="120,-1543,121">
+       <group name="Deformation-REYELASH_3" pos="120,-1543,129">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -38726,7 +38727,7 @@
          <link out="CURVE_2" in="CURVE_3"/>
         </linkedlist>
        </group>
-       <group name="Deformation-REYELASH_2" pos="283,-1543,130">
+       <group name="Deformation-REYELASH_2" pos="283,-1543,138">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -38913,7 +38914,7 @@
          <link out="Curve_1" in="Deformation-Composite" inport="1"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LUPPEREYELID" pos="-753,-1543,133">
+       <group name="Deformation-LUPPEREYELID" pos="-753,-1543,141">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -39165,7 +39166,7 @@
          <link out="CURVE_3" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-LEYELASH_1" pos="-931,-1543,135">
+       <group name="Deformation-LEYELASH_1" pos="-931,-1543,143">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -39352,7 +39353,7 @@
          <link out="Curve_1" in="Deformation-Composite" inport="1"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RUPPEREYELID_1" pos="452,-1605,129">
+       <group name="Deformation-RUPPEREYELID_1" pos="452,-1605,137">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -39604,7 +39605,7 @@
          <link out="CURVE_3" in="Multi-Port-Out"/>
         </linkedlist>
        </group>
-       <group name="Deformation-REYEBROW_1" pos="-47,-1543,118">
+       <group name="Deformation-REYEBROW_1" pos="-47,-1543,126">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -39956,7 +39957,7 @@
          <link out="CURVE_4" in="CURVE_5"/>
         </linkedlist>
        </group>
-       <group name="Deformation-RLOWEREYELID_1" pos="636,-1543,123">
+       <group name="Deformation-RLOWEREYELID_1" pos="636,-1543,131">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -40208,7 +40209,7 @@
          <link out="CURVE_1" in="CURVE_2"/>
         </linkedlist>
        </group>
-       <group name="Deformation-PUPIL_1" pos="823,-1543,128">
+       <group name="Deformation-PUPIL_1" pos="823,-1543,136">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -40560,7 +40561,7 @@
          <link out="OFFSET" in="CURVE"/>
         </linkedlist>
        </group>
-       <group name="Deformation-FRONTRBANG" pos="-1930,-1554,36">
+       <group name="Deformation-FRONTRBANG" pos="-1730,-1563,19">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -40862,7 +40863,7 @@
          <link out="CURVE_1" in="CURVE_2"/>
         </linkedlist>
        </group>
-       <group name="Deformation-BACK_HAIR" pos="1957,-1543,125">
+       <group name="Deformation-BACK_HAIR" pos="1957,-1543,133">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -41414,7 +41415,7 @@
          <link out="CURVE_8" in="CURVE_9"/>
         </linkedlist>
        </group>
-       <group name="Deformation-MIDDLE_BANG" pos="-1733,-1555,140">
+       <group name="Deformation-MIDDLE_BANG" pos="-1934,-1572,20">
         <options>
          <collapsed val="false"/>
          <subnodeCollapsed val="true"/>
@@ -41766,7 +41767,7 @@
          <link out="CURVE_4" in="CURVE_5"/>
         </linkedlist>
        </group>
-       <module type="READ" name="SECLERA" pos="-283,-1493,119" publishUnderTab="SECLERA">
+       <module type="READ" name="SECLERA" pos="-283,-1493,127" publishUnderTab="SECLERA">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -41880,7 +41881,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="PUPIL_1" pos="822,-1493,16" publishUnderTab="PUPIL">
+       <module type="READ" name="PUPIL_1" pos="822,-1493,34" publishUnderTab="PUPIL">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -41994,7 +41995,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="PUPIL" pos="-407,-1493,132" publishUnderTab="PUPIL">
+       <module type="READ" name="PUPIL" pos="-407,-1493,140" publishUnderTab="PUPIL">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42108,7 +42109,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LEYELASH_1" pos="-931,-1493,9" publishUnderTab="LEYELASH_1">
+       <module type="READ" name="LEYELASH_1" pos="-931,-1493,28" publishUnderTab="LEYELASH_1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42222,7 +42223,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="REYEBROW_1" pos="-47,-1493,6" publishUnderTab="LEYEBROW">
+       <module type="READ" name="REYEBROW_1" pos="-47,-1493,25" publishUnderTab="LEYEBROW">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42336,7 +42337,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LEYELASH" pos="-1081,-1493,10" publishUnderTab="LEYELASH">
+       <module type="READ" name="LEYELASH" pos="-1081,-1493,29" publishUnderTab="LEYELASH">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42450,7 +42451,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LEYEBROW" pos="-1231,-1493,11" publishUnderTab="LEYEBROW">
+       <module type="READ" name="LEYEBROW" pos="-1231,-1493,30" publishUnderTab="LEYEBROW">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42564,7 +42565,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RUPPEREYELID_1" pos="452,-1493,14" publishUnderTab="LUPPEREYELID">
+       <module type="READ" name="RUPPEREYELID_1" pos="452,-1493,32" publishUnderTab="LUPPEREYELID">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42678,7 +42679,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RLOWEREYELID_1" pos="636,-1493,15" publishUnderTab="LLOWEREYELID">
+       <module type="READ" name="RLOWEREYELID_1" pos="636,-1493,33" publishUnderTab="LLOWEREYELID">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42792,7 +42793,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="REYELASH_2" pos="283,-1493,3" publishUnderTab="LEYELASH_1">
+       <module type="READ" name="REYELASH_2" pos="283,-1493,22" publishUnderTab="LEYELASH_1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -42906,7 +42907,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LUPPEREYELID" pos="-753,-1493,8" publishUnderTab="LUPPEREYELID">
+       <module type="READ" name="LUPPEREYELID" pos="-753,-1493,27" publishUnderTab="LUPPEREYELID">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43020,7 +43021,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LLOWEREYELID" pos="-578,-1493,7" publishUnderTab="LLOWEREYELID">
+       <module type="READ" name="LLOWEREYELID" pos="-578,-1493,26" publishUnderTab="LLOWEREYELID">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43134,7 +43135,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="REYELASH_3" pos="120,-1493,4" publishUnderTab="LEYELASH">
+       <module type="READ" name="REYELASH_3" pos="120,-1493,23" publishUnderTab="LEYELASH">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43248,7 +43249,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SECLERA_1" pos="959,-1493,5" publishUnderTab="SECLERA">
+       <module type="READ" name="SECLERA_1" pos="959,-1493,24" publishUnderTab="SECLERA">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43362,7 +43363,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LEAR" pos="1554,-1493,117" publishUnderTab="LEAR">
+       <module type="READ" name="LEAR" pos="1554,-1493,16" publishUnderTab="LEAR">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43476,7 +43477,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="HEAD" pos="1798,-1493,21" publishUnderTab="HEAD">
+       <module type="READ" name="HEAD" pos="1798,-1493,37" publishUnderTab="HEAD">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43590,7 +43591,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="Belt" pos="2552,-1552,61" publishUnderTab="Belt">
+       <module type="READ" name="Belt" pos="2552,-1552,1" publishUnderTab="Belt">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43704,7 +43705,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="PELVIS" pos="3169,-1558,104" publishUnderTab="PELVIS">
+       <module type="READ" name="PELVIS" pos="3169,-1558,117" publishUnderTab="PELVIS">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -43818,7 +43819,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RLOWERARM" pos="3874,-1541,100" publishUnderTab="RLOWERARM">
+       <module type="READ" name="RLOWERARM" pos="3874,-1541,113" publishUnderTab="RLOWERARM">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -43932,8 +43933,9 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="BODY" pos="2673,-1552,108" publishUnderTab="BODY">
+       <module type="READ" name="BODY" pos="2673,-1552,3" publishUnderTab="BODY">
         <options>
+         <disabled val="true"/>
          <collapsed val="true"/>
          <version val="1"/>
         </options>
@@ -44046,7 +44048,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="NOSE" pos="1114,-1493,32" publishUnderTab="NOSE">
+       <module type="READ" name="NOSE" pos="1114,-1493,47" publishUnderTab="NOSE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44160,7 +44162,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="MOUTH" pos="1245,-1493,19" publishUnderTab="MOUTH">
+       <module type="READ" name="MOUTH" pos="1245,-1493,36" publishUnderTab="MOUTH">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44274,7 +44276,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="NECK" pos="2275,-1552,113" publishUnderTab="NECK">
+       <module type="READ" name="NECK" pos="2275,-1552,4" publishUnderTab="NECK">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44388,7 +44390,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="NECKLINE" pos="2401,-1552,112" publishUnderTab="NECKLINE">
+       <module type="READ" name="NECKLINE" pos="2401,-1552,5" publishUnderTab="NECKLINE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44502,7 +44504,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="MENTALCREASE" pos="1380,-1493,31" publishUnderTab="MENTALCREASE">
+       <module type="READ" name="MENTALCREASE" pos="1380,-1493,46" publishUnderTab="MENTALCREASE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44616,7 +44618,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="REAR" pos="1675,-1493,20" publishUnderTab="REAR">
+       <module type="READ" name="REAR" pos="1675,-1493,11" publishUnderTab="REAR">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44730,7 +44732,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RHAND_1" pos="4937,-1473,97" publishUnderTab="RHAND">
+       <module type="READ" name="RHAND_1" pos="4937,-1473,110" publishUnderTab="RHAND">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44844,7 +44846,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LBANG" pos="-1511,-1498,13" publishUnderTab="1_2">
+       <module type="READ" name="LBANG" pos="-1511,-1498,31" publishUnderTab="1_2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -44958,7 +44960,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RHAND" pos="4109,-1541,96" publishUnderTab="RHAND">
+       <module type="READ" name="RHAND" pos="4109,-1541,109" publishUnderTab="RHAND">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45072,7 +45074,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LLOWERLEG" pos="5660,-1526,81" publishUnderTab="RLOWERLEG">
+       <module type="READ" name="LLOWERLEG" pos="5660,-1526,94" publishUnderTab="RLOWERLEG">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45186,7 +45188,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="MIDDLE_BANG" pos="-1716,-1498,17" publishUnderTab="1_1">
+       <module type="READ" name="MIDDLE_BANG" pos="-1901,-1498,18" publishUnderTab="1_1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45300,7 +45302,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="FRONTRBANG" pos="-1912,-1498,1" publishUnderTab="1">
+       <module type="READ" name="FRONTRBANG" pos="-1712,-1498,17" publishUnderTab="1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45414,7 +45416,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SHOES" pos="6152,-1526,71" publishUnderTab="SHOES">
+       <module type="READ" name="SHOES" pos="6152,-1526,84" publishUnderTab="SHOES">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45528,7 +45530,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SHOES1" pos="5852,-1526,79" publishUnderTab="SHOES1">
+       <module type="READ" name="SHOES1" pos="5852,-1526,92" publishUnderTab="SHOES1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45642,7 +45644,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LUPPERLEG" pos="5364,-1526,88" publishUnderTab="RUPPERLEG">
+       <module type="READ" name="LUPPERLEG" pos="5364,-1526,101" publishUnderTab="RUPPERLEG">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45756,7 +45758,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="BACK_HAIR" pos="1974,-1464,18" publishUnderTab="1_3">
+       <module type="READ" name="BACK_HAIR" pos="1974,-1464,35" publishUnderTab="1_3">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -45870,7 +45872,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RBANG" pos="-1375,-1498,12" publishUnderTab="1_4">
+       <module type="READ" name="RBANG" pos="-1375,-1498,9" publishUnderTab="1_4">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -45984,7 +45986,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="CROTCHLINE" pos="2974,-1558,106" publishUnderTab="CROTCHLINE">
+       <module type="READ" name="CROTCHLINE" pos="2974,-1558,119" publishUnderTab="CROTCHLINE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46098,7 +46100,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SHOES2" pos="6004,-1526,75" publishUnderTab="SHOES12">
+       <module type="READ" name="SHOES2" pos="6004,-1526,88" publishUnderTab="SHOES12">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46212,7 +46214,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RUPPERARM" pos="3526,-1539,103" publishUnderTab="RUPPERARM">
+       <module type="READ" name="RUPPERARM" pos="3526,-1539,116" publishUnderTab="RUPPERARM">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46326,7 +46328,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LLOWERLEG_1" pos="6903,-1563,82" publishUnderTab="LLOWERLEG">
+       <module type="READ" name="LLOWERLEG_1" pos="6903,-1563,95" publishUnderTab="LLOWERLEG">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46440,7 +46442,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SHOES2_1" pos="7247,-1563,74" publishUnderTab="SHOES2">
+       <module type="READ" name="SHOES2_1" pos="7247,-1563,87" publishUnderTab="SHOES2">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46554,7 +46556,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="LUPPERLEG_1" pos="6607,-1563,87" publishUnderTab="LUPPERLEG">
+       <module type="READ" name="LUPPERLEG_1" pos="6607,-1563,100" publishUnderTab="LUPPERLEG">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46668,7 +46670,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RLOWERARM_1" pos="4702,-1473,101" publishUnderTab="RLOWERARM">
+       <module type="READ" name="RLOWERARM_1" pos="4702,-1473,114" publishUnderTab="RLOWERARM">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46782,7 +46784,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SHOES_1" pos="7395,-1563,72" publishUnderTab="SHOES">
+       <module type="READ" name="SHOES_1" pos="7395,-1563,85" publishUnderTab="SHOES">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -46896,7 +46898,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="RUPPERARM_1" pos="4354,-1471,102" publishUnderTab="RUPPERARM">
+       <module type="READ" name="RUPPERARM_1" pos="4354,-1471,115" publishUnderTab="RUPPERARM">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47010,7 +47012,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="READ" name="SHOES1_1" pos="7095,-1563,78" publishUnderTab="SHOES1">
+       <module type="READ" name="SHOES1_1" pos="7095,-1563,91" publishUnderTab="SHOES1">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47124,7 +47126,7 @@
          <useFileUnits val="true"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_15" pos="4636,-1348,184" publishUnderTab="Cutter_7">
+       <module type="CUTTER" name="Cutter_15" pos="4636,-1348,189" publishUnderTab="Cutter_7">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47133,7 +47135,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_17" pos="4473,-1354,236" publishUnderTab="Cutter_9">
+       <module type="CUTTER" name="Cutter_17" pos="4473,-1354,237" publishUnderTab="Cutter_9">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47142,7 +47144,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_18" pos="4289,-1354,238" publishUnderTab="Cutter_10">
+       <module type="CUTTER" name="Cutter_18" pos="4289,-1354,239" publishUnderTab="Cutter_10">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47151,7 +47153,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_16" pos="4817,-1348,186" publishUnderTab="Cutter_8">
+       <module type="CUTTER" name="Cutter_16" pos="4817,-1348,191" publishUnderTab="Cutter_8">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47160,7 +47162,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_20" pos="6530,-1403,93" publishUnderTab="Cutter_11">
+       <module type="CUTTER" name="Cutter_20" pos="6530,-1403,106" publishUnderTab="Cutter_11">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47169,7 +47171,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_19" pos="6831,-1401,86" publishUnderTab="Cutter_13">
+       <module type="CUTTER" name="Cutter_19" pos="6831,-1401,99" publishUnderTab="Cutter_13">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47178,7 +47180,7 @@
          <inverted val="true"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_21" pos="7011,-1400,165" publishUnderTab="Cutter_14">
+       <module type="CUTTER" name="Cutter_21" pos="7011,-1400,170" publishUnderTab="Cutter_14">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47187,7 +47189,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="CUTTER" name="Cutter_22" pos="6711,-1403,169" publishUnderTab="Cutter_12">
+       <module type="CUTTER" name="Cutter_22" pos="6711,-1403,174" publishUnderTab="Cutter_12">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -47196,7 +47198,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="PEG" name="RWHOLESHOE" pos="7247,-2042,154" publishUnderTab="Peg_5">
+       <module type="PEG" name="RWHOLESHOE" pos="7247,-2042,159" publishUnderTab="Peg_5">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47258,7 +47260,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERLEG-P-P_1" pos="6909,-2284,91" publishUnderTab="LLOWERLEG-P-P">
+       <module type="PEG" name="RLOWERLEG-P-P_1" pos="6909,-2284,104" publishUnderTab="LLOWERLEG-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47320,7 +47322,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RSHOES1" pos="7113,-1948,156" publishUnderTab="SHOES1-P">
+       <module type="PEG" name="RSHOES1" pos="7113,-1948,161" publishUnderTab="SHOES1-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47382,7 +47384,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="UPPERARM_PARENTPEG_1" pos="4364,-2318,40" publishUnderTab="UPPERARM_PARENTPEG">
+       <module type="PEG" name="UPPERARM_PARENTPEG_1" pos="4364,-2318,54" publishUnderTab="UPPERARM_PARENTPEG">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47444,7 +47446,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="UPPERBODY_PARENTPEG" pos="2645,-3173,53" publishUnderTab="BODY-P-P-P">
+       <module type="PEG" name="UPPERBODY_PARENTPEG" pos="2645,-3173,67" publishUnderTab="BODY-P-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47506,7 +47508,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="UPPERARM_PARENTPEG" pos="3542,-2325,158" publishUnderTab="RUPPERARM-P-P">
+       <module type="PEG" name="UPPERARM_PARENTPEG" pos="3542,-2325,163" publishUnderTab="RUPPERARM-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47568,7 +47570,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERARM_PARENTPEG_1" pos="4700,-2154,43" publishUnderTab="RLOWERARM_PARENTPEG">
+       <module type="PEG" name="RLOWERARM_PARENTPEG_1" pos="4700,-2154,57" publishUnderTab="RLOWERARM_PARENTPEG">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47630,7 +47632,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERARM-P_1" pos="4727,-1838,41" publishUnderTab="RLOWERARM-P">
+       <module type="PEG" name="RLOWERARM-P_1" pos="4727,-1838,55" publishUnderTab="RLOWERARM-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47692,7 +47694,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RSHOES2" pos="7265,-1948,58" publishUnderTab="SHOES2-P">
+       <module type="PEG" name="RSHOES2" pos="7265,-1948,72" publishUnderTab="SHOES2-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47754,7 +47756,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RSHOES3" pos="7410,-1948,157" publishUnderTab="SHOES-P">
+       <module type="PEG" name="RSHOES3" pos="7410,-1948,162" publishUnderTab="SHOES-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47816,7 +47818,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="WHOLELSHOE" pos="6034,-2039,60" publishUnderTab="Peg_5">
+       <module type="PEG" name="WHOLELSHOE" pos="6034,-2039,74" publishUnderTab="Peg_5">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47878,7 +47880,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LUPPERLEG-P-P" pos="5398,-2515,49" publishUnderTab="LUPPERLEG-P-P">
+       <module type="PEG" name="LUPPERLEG-P-P" pos="5398,-2515,63" publishUnderTab="LUPPERLEG-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -47940,7 +47942,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LOWERBODY_PARENTPEG" pos="3139,-3546,54" publishUnderTab="PELVIS-P-P-P">
+       <module type="PEG" name="LOWERBODY_PARENTPEG" pos="3139,-3546,68" publishUnderTab="PELVIS-P-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48002,7 +48004,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="BODY-P-P-P-P" pos="2674,-3759,52" publishUnderTab="BODY-P-P-P-P">
+       <module type="PEG" name="BODY-P-P-P-P" pos="2674,-3759,66" publishUnderTab="BODY-P-P-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48064,7 +48066,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LLOWERLEG-P-P" pos="5694,-2281,90" publishUnderTab="LLOWERLEG-P-P">
+       <module type="PEG" name="LLOWERLEG-P-P" pos="5694,-2281,103" publishUnderTab="LLOWERLEG-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48126,7 +48128,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RUPPERLEG-P-P_1" pos="6606,-2518,38" publishUnderTab="LUPPERLEG-P-P">
+       <module type="PEG" name="RUPPERLEG-P-P_1" pos="6606,-2518,52" publishUnderTab="LUPPERLEG-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48188,7 +48190,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RUPPERLEG-P_1" pos="6617,-1950,39" publishUnderTab="LUPPERLEG-P">
+       <module type="PEG" name="RUPPERLEG-P_1" pos="6617,-1950,53" publishUnderTab="LUPPERLEG-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48250,7 +48252,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RLOWERLEG-P_1" pos="6914,-1950,153" publishUnderTab="LLOWERLEG-P">
+       <module type="PEG" name="RLOWERLEG-P_1" pos="6914,-1950,158" publishUnderTab="LLOWERLEG-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48312,7 +48314,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RHAND-P_1" pos="4962,-1838,42" publishUnderTab="RHAND-P">
+       <module type="PEG" name="RHAND-P_1" pos="4962,-1838,56" publishUnderTab="RHAND-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48374,7 +48376,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="ARMS_PARENTPEG" pos="3544,-3086,46" publishUnderTab="RUPPERARM-P-P-P">
+       <module type="PEG" name="ARMS_PARENTPEG" pos="3544,-3086,60" publishUnderTab="RUPPERARM-P-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48436,7 +48438,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="LEGS_MASTERPEG" pos="4125,-3289,51" publishUnderTab="LUPPERLEG-P-P-P">
+       <module type="PEG" name="LEGS_MASTERPEG" pos="4125,-3289,65" publishUnderTab="LUPPERLEG-P-P-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48498,7 +48500,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="PEG" name="RUPPERARM-P_1" pos="4383,-1839,48" publishUnderTab="RUPPERARM-P">
+       <module type="PEG" name="RUPPERARM-P_1" pos="4383,-1839,62" publishUnderTab="RUPPERARM-P">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48560,7 +48562,7 @@
          <addCompositeToGroup val="true"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_6" pos="4720,-1079,26" publishUnderTab="Composite_5">
+       <module type="COMPOSITE" name="Composite_6" pos="4720,-1079,42" publishUnderTab="Composite_5">
         <options>
          <disabled val="true"/>
          <collapsed val="true"/>
@@ -48580,7 +48582,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="RUPPERARM_COMPOSITE_1" pos="4341,-1294,228" publishUnderTab="RUPPERARM_COMPOSITE">
+       <module type="COMPOSITE" name="RUPPERARM_COMPOSITE_1" pos="4341,-1294,229" publishUnderTab="RUPPERARM_COMPOSITE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48599,7 +48601,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="LLUPERLEG_COMPOSITE_1" pos="6590,-1295,168" publishUnderTab="LLUPERLEG_COMPOSITE">
+       <module type="COMPOSITE" name="LLUPERLEG_COMPOSITE_1" pos="6590,-1295,173" publishUnderTab="LLUPERLEG_COMPOSITE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48618,7 +48620,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="RLOWERARM_COMPOSITE_1" pos="4686,-1288,230" publishUnderTab="RLOWERARM_COMPOSITE">
+       <module type="COMPOSITE" name="RLOWERARM_COMPOSITE_1" pos="4686,-1288,231" publishUnderTab="RLOWERARM_COMPOSITE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48637,7 +48639,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="LLOWERLEG_COMPOSITE_1" pos="6886,-1299,232" publishUnderTab="LLOWERLEG_COMPOSITE">
+       <module type="COMPOSITE" name="LLOWERLEG_COMPOSITE_1" pos="6886,-1299,233" publishUnderTab="LLOWERLEG_COMPOSITE">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48656,7 +48658,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="Composite_9" pos="6933,-1002,24" publishUnderTab="Composite_8">
+       <module type="COMPOSITE" name="Composite_9" pos="6933,-1002,40" publishUnderTab="Composite_8">
         <options>
          <disabled val="true"/>
          <collapsed val="true"/>
@@ -48676,7 +48678,7 @@
          <mergeVector val="false"/>
         </attrs>
        </module>
-       <module type="StaticConstraint" name="Static-Transformation" pos="4374,-2409,44" publishUnderTab="Static-Transformation">
+       <module type="StaticConstraint" name="Static-Transformation" pos="4374,-2409,58" publishUnderTab="Static-Transformation">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48709,7 +48711,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="StaticConstraint" name="Static-Transformation_1" pos="6600,-2665,50" publishUnderTab="Static-Transformation_1">
+       <module type="StaticConstraint" name="Static-Transformation_1" pos="6600,-2665,64" publishUnderTab="Static-Transformation_1">
         <options>
          <collapsed val="false"/>
          <version val="1"/>
@@ -48742,7 +48744,7 @@
          <inverted val="false"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_8" pos="6704,-1463,172" publishUnderTab="Colour-Art_4">
+       <module type="COLOR_ART" name="Colour-Art_8" pos="6704,-1463,177" publishUnderTab="Colour-Art_4">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48754,7 +48756,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_9" pos="6529,-1463,173" publishUnderTab="Line-Art_4">
+       <module type="LINE_ART" name="Line-Art_9" pos="6529,-1463,178" publishUnderTab="Line-Art_4">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48766,7 +48768,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COLOR_ART" name="Colour-Art_9" pos="7004,-1461,234" publishUnderTab="Colour-Art_5">
+       <module type="COLOR_ART" name="Colour-Art_9" pos="7004,-1461,235" publishUnderTab="Colour-Art_5">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48778,7 +48780,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="LINE_ART" name="Line-Art_8" pos="6830,-1461,163" publishUnderTab="Line-Art_5">
+       <module type="LINE_ART" name="Line-Art_8" pos="6830,-1461,168" publishUnderTab="Line-Art_5">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -48790,7 +48792,7 @@
          <antialiasingExponent val="1" defaultValue="1"/>
         </attrs>
        </module>
-       <module type="COMPOSITE" name="OUTSIDEHEAD" pos="1391,-1285,33" publishUnderTab="Composite_7">
+       <module type="COMPOSITE" name="OUTSIDEHEAD" pos="1391,-1285,48" publishUnderTab="Composite_7">
         <options>
          <collapsed val="true"/>
          <version val="1"/>
@@ -49040,8 +49042,8 @@
        <link out="RHAND" in="Composite_5" inport="0"/>
        <link out="LLOWERLEG" in="Colour-Art_5"/>
        <link out="LLOWERLEG" in="Line-Art_5"/>
-       <link out="MIDDLE_BANG" in="FULLBANGS" inport="2"/>
-       <link out="FRONTRBANG" in="FULLBANGS" inport="3"/>
+       <link out="MIDDLE_BANG" in="FULLBANGS" inport="3"/>
+       <link out="FRONTRBANG" in="FULLBANGS" inport="2"/>
        <link out="SHOES" in="Composite_8" inport="0"/>
        <link out="SHOES1" in="Composite_8" inport="2"/>
        <link out="LUPPERLEG" in="Colour-Art_4"/>
@@ -49400,7 +49402,7 @@
  </timeline>
  <metas>
   <meta type="checksumValidation" name="checksumValidation" creator="Harmony Premium" version="1.0">
-   <value data="6A000000000000000303DF5F95B871713A1FD0B218E82B6B185546B1A713B1E289BDDFA6811E88129132B104D94FC47D751FEDEE0070A2125BD050B4CD995B613D80AFF0CFD2366E4C33D19ECA0D94D310560B62E9B429700D327BAE179EE8A3D36C95D9DFBB800FB22B28D8CCE2F6EEFB795B0200002D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D0A4D4949426B5443422B3641444167454341674945306A414E42676B71686B694739773042415155464144412B4D517377435159445651514745774A44515445500A4D4130474131554543424D475558566C596D566A4D52347748415944565151444578567361574E6C626E4E6C6369353062323975596D39766253356A623230770A4868634E4D6A59774D6A45324D544D304F4449785768634E4D7A59774D6A45314D544D304F444978576A416A4D517377435159445651514745774A44515445550A4D424947413155454177774C56305643587A49794E5463784E6A59775844414E42676B71686B6947397730424151454641414E4C41444249416B45416F3838700A2B35504C576544523242777566594B44456B516C42522F587853785659656657736F706A6570636A6F6E5563704D3841726667675853416A645A3231564850340A6D377257372F454466445A695049517675774944415141424D413047435371475349623344514542425155414134474241424B4F49433450324A65473342786D0A77346D56393762317268657342664D4D75627864436C716D30724A352B4F2F4E717371754B4F6C6C67504667397074466773714366364B6937735841443039610A7268484A2F7A4331684944725850785A386338515869637765424265653876456A534548564A694646497A633936646B723668317A32443150375A48515A39720A52595434794D376D5263716B6552503953504775426A2F32556276410A2D2D2D2D2D454E442043455254494649434154452D2D2D2D2D0A400000001A5850B5B87237B5E3289E841AD659C800D65215375A365574DB73992A32CAEA38AEE2BE238F1D36DD748E49F73DFBAF612F9A2CCBE5BFB570868CDC92345446"/>
+   <value data="6A00000000000000030320A06A478E8EC5E02F4DE717D494E7AAB94E58EC4E1D764220597EE177ED6ECD4EFB26B03B828AE01211FF8F5DEDA42FAF4B3266A49EC27F500F302DC991B3CC2E6135F26B2CEFA9F49D164BD68FF2CD8451E861175C2C936A2620447FF04DD4D727331D091104865B0200002D2D2D2D2D424547494E2043455254494649434154452D2D2D2D2D0A4D4949426B5443422B3641444167454341674945306A414E42676B71686B694739773042415155464144412B4D517377435159445651514745774A44515445500A4D4130474131554543424D475558566C596D566A4D52347748415944565151444578567361574E6C626E4E6C6369353062323975596D39766253356A623230770A4868634E4D6A59774D6A45324D544D304F4449785768634E4D7A59774D6A45314D544D304F444978576A416A4D517377435159445651514745774A44515445550A4D424947413155454177774C56305643587A49794E5463784E6A59775844414E42676B71686B6947397730424151454641414E4C41444249416B45416F3838700A2B35504C576544523242777566594B44456B516C42522F587853785659656657736F706A6570636A6F6E5563704D3841726667675853416A645A3231564850340A6D377257372F454466445A695049517675774944415141424D413047435371475349623344514542425155414134474241424B4F49433450324A65473342786D0A77346D56393762317268657342664D4D75627864436C716D30724A352B4F2F4E717371754B4F6C6C67504667397074466773714366364B6937735841443039610A7268484A2F7A4331684944725850785A386338515869637765424265653876456A534548564A694646497A633936646B723668317A32443150375A48515A39720A52595434794D376D5263716B6552503953504775426A2F32556276410A2D2D2D2D2D454E442043455254494649434154452D2D2D2D2D0A400000000FAEBDC4784F8E856BC1AB314E2F32C84177F043CE8B086427CFBFCFC94ADC408D2C21DD1A832AF65DC99FF012463A68803DFA9EE86A1EB9678375389B6E19E8"/>
   </meta>
  </metas>
 </project>
