@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<elements  source="Harmony Premium (HarmonyPremium.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Tue Mar 24 14:10:07 2026" timeMsec="1774332607719" username="tiffa" realUsername="tiffa">
+<elements  source="Harmony Premium (HarmonyPremium.exe) version 25.1.0 build 24630 2025-12-02 22:03:23" version="2510" build="24630" date="Wed Mar 25 21:09:37 2026" timeMsec="1774444177469" username="Janrein" realUsername="Janrein">
  <element id="1" elementName="Drawing" elementFolder="Drawing" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="2" elementName="Gino" elementFolder="Gino" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
  <element id="3" elementName="LEYEBROW" elementFolder="LEYEBROW" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
@@ -52,4 +52,5 @@
  <element id="57" elementName="LBANG" elementFolder="LBANG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="58" elementName="BACK_HAIR" elementFolder="BACK_HAIR" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
  <element id="67" elementName="RBANG" elementFolder="RBANG" pixmapFormat="2" scanType="2" fieldChart="12" vectorType="2" rootFolder="elements"/>
+ <element id="68" elementName="bg" elementFolder="bg" pixmapFormat="10" scanType="2" fieldChart="12" vectorType="0" rootFolder="elements"/>
 </elements>
